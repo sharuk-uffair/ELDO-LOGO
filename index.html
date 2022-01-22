@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+      /* font-family: 'Cookie', cursive; */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: black;
+      }
+      div {
+        padding-top: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+      }
+      .eldo {
+        color: white;
+        font-size: 200px;
+        position: relative;
+      }
+      .e {
+        color: #ffe162;
+      }
+      .l {
+        color: #ffad60;
+      }
+      .d {
+        color: #71dfe7;
+      }
+      .o {
+        color: #f05454;
+      }
+
+      .e::after {
+        width: 40vw;
+        font-family: "Cookie", cursive;
+        font-size: 50px;
+        position: absolute;
+        top: 76px;
+        left: 20px;
+        content: "En-Lift Development Organization";
+        background-image: linear-gradient(
+          45deg,
+          #ffe162,
+          #ffad60,
+          #71dfe7,
+          #f05454
+        );
+
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        padding: 10px 7px;
+        z-index: 999;
+      }
+      .l::after {
+        font-family: "Cookie", cursive;
+        font-size: 50px;
+        position: absolute;
+        top: 76px;
+        left: -140px;
+        content: "";
+        background-color: black;
+        padding: 40px 300px;
+        z-index: 888;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span class="eldo e">E</span>
+      <span class="eldo l">L</span>
+      <span class="eldo d">D</span>
+      <span class="eldo o">O</span>
+    </div>
+  </body>
+</html>
